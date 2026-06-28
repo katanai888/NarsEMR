@@ -1,79 +1,58 @@
-[![Syntax Status](https://github.com/openemr/openemr/actions/workflows/syntax.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/syntax.yml)
-[![Styling Status](https://github.com/openemr/openemr/actions/workflows/styling.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/styling.yml)
-[![Testing Status](https://github.com/openemr/openemr/actions/workflows/test.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/test.yml)
-[![JS Unit Testing Status](https://github.com/openemr/openemr/actions/workflows/js-test.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/js-test.yml)
-[![PHPStan](https://github.com/openemr/openemr/actions/workflows/phpstan.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/phpstan.yml)
-[![Rector](https://github.com/openemr/openemr/actions/workflows/rector.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/rector.yml)
-[![ShellCheck](https://github.com/openemr/openemr/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/shellcheck.yml)
-[![Docker Compose Linting](https://github.com/openemr/openemr/actions/workflows/docker-compose-lint.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/docker-compose-lint.yml)
-[![Dockerfile Linting](https://github.com/openemr/openemr/actions/workflows/docker-lint-hadolint.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/docker-lint-hadolint.yml)
-[![Isolated Tests](https://github.com/openemr/openemr/actions/workflows/isolated-tests.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/isolated-tests.yml)
-[![Inferno Certification Test](https://github.com/openemr/openemr/actions/workflows/inferno-test.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/inferno-test.yml)
-[![Composer Checks](https://github.com/openemr/openemr/actions/workflows/composer.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/composer.yml)
-[![Composer Require Checker](https://github.com/openemr/openemr/actions/workflows/composer-require-checker.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/composer-require-checker.yml)
-[![API Docs Freshness Checks](https://github.com/openemr/openemr/actions/workflows/api-docs.yml/badge.svg)](https://github.com/openemr/openemr/actions/workflows/api-docs.yml)
-[![codecov](https://codecov.io/gh/openemr/openemr/graph/badge.svg?token=7Eu3U1Ozdq)](https://codecov.io/gh/openemr/openemr)
+**BansaEMR**
 
-[![Backers on Open Collective](https://opencollective.com/openemr/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/openemr/sponsors/badge.svg)](#sponsors)
+BansaEMR: Filipino Dashboard EMR for small clinics and stand-alone medical centers. // BansaEMR para sa mga maliliit na klinika at hiwalay na mga medical center.
 
-# OpenEMR
+---
 
-[OpenEMR](https://open-emr.org) is a Free and Open Source electronic health records and medical practice management application. It features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, free support, a vibrant community, and a whole lot more. It runs on Windows, Linux, Mac OS X, and many other platforms.
+## Project Overview
 
-### Contributing
+BansaEMR is a localized electronic medical records (EMR) and practice management solution optimized specifically for the unique workflows of independent healthcare facilities and small clinics in the Philippines. 
 
-OpenEMR is a leader in healthcare open source software and comprises a large and diverse community of software developers, medical providers and educators with a very healthy mix of both volunteers and professionals. [Join us and learn how to start contributing today!](https://open-emr.org/wiki/index.php/FAQ#How_do_I_begin_to_volunteer_for_the_OpenEMR_project.3F)
+Built on top of the open-source architecture of [OpenEMR](https://github.com/openemr/openemr), BansaEMR introduces a tailored user experience designed to make medical charting, scheduling, and clinic management intuitive, efficient, and accessible.
 
-> Already comfortable with git? Check out [CONTRIBUTING.md](CONTRIBUTING.md) for quick setup instructions and requirements for contributing to OpenEMR by resolving a bug or adding an awesome feature 😊.
+### Key Features
+* Localization: Integrated EN/TL (English/Tagalog) global language framework across all core clinic and dashboard views.
+* Streamlined Dashboard: Simplified interface engineered for the pace of fast-moving standalone medical centers.
+* Comprehensive Care: Maintains full access to standard electronic charting, scheduling, and practice management tools.
 
-### Support
+---
 
-Community and Professional support can be found [here](https://open-emr.org/wiki/index.php/OpenEMR_Support_Guide).
+## Significance and Impact
 
-Extensive documentation and forums can be found on the [OpenEMR website](https://open-emr.org) that can help you to become more familiar about the project 📖.
+The Philippine healthcare landscape is highly fragmented, with over 60% of primary care encounters occurring in small, independent clinics and standalone community health centers. Despite the rapid digital transformation of apex hospitals, small clinics remain severely underserved. 
 
-### Reporting Issues and Bugs
+### The Primary Care Struggle
+* Digital Divide: Out of the estimated 40,000+ private clinics and rural health units (RHUs) across the archipelago, fewer than 20% utilize a fully functional, localized EMR system. The vast majority still rely on manual, paper-based charting.
+* Administrative Burden: Independent practitioners spend up to 40% of their working hours on administrative upkeep, manual reporting, and tracking patient histories across loose paper records, heavily reducing actual patient face-time.
+* Language Barriers: Most global software options are rigidly English-centric. By introducing a native English/Tagalog toggle, BansaEMR bridges the technical literacy gap for community nurses and administrative staff.
 
-Report these on the [Issue Tracker](https://github.com/openemr/openemr/issues). If you are unsure if it is an issue/bug, then always feel free to use the [Forum](https://community.open-emr.org/) and [Chat](https://www.open-emr.org/chat/) to discuss about the issue 🪲.
+### Population Health Framework
+Adopting an agile digital infrastructure directly improves community health outcomes:
+* Continuity of Care: Standardizing records reduces diagnostic duplication and medication errors in a country where out-of-pocket health expenditure sits at over 40%.
+* Syndromic Surveillance: Transitioning small clinics from paper to structured digital data lays the groundwork for real-time tracking of localized outbreaks (such as Dengue, Leptospirosis, or respiratory infections), vastly improving municipal health responses.
+* Universal Health Care (UHC) Alignment: BansaEMR structures clinical workflows to align with the Philippines' UHC Act (RA 11223), helping small providers transition into formal, data-driven primary care networks.
 
-### Reporting Security Vulnerabilities
+---
 
-Check out [SECURITY.md](.github/SECURITY.md)
+## For Developers
 
-### API
+To clone, build, and run BansaEMR locally, ensure you meet the prerequisite environment specifications.
 
-Check out [API_README.md](API_README.md)
+### Prerequisites
+* Node.js: Version 24.* is required for asset compilation.
+* PHP / Composer
 
-### Docker
+### Installation Setup
 
-Check out [DOCKER_README.md](DOCKER_README.md)
-
-### FHIR
-
-Check out [FHIR_README.md](FHIR_README.md)
-
-### For Developers
-
-If using OpenEMR directly from the code repository, then the following commands will build OpenEMR (Node.js version 24.* is required) :
-
-```shell
+```bash
+# Install PHP dependencies
 composer install --no-dev
+
+# Install JavaScript dependencies
 npm install
+
+# Build front-end compilation themes and assets
 npm run build
+
+# Optimize the autoloader mapping
 composer dump-autoload -o
-```
-
-### Contributors
-
-This project exists thanks to all the people who have contributed. [[Contribute]](CONTRIBUTING.md).
-<a href="https://github.com/openemr/openemr/graphs/contributors"><img src="https://opencollective.com/openemr/contributors.svg?width=890" /></a>
-
-
-### Sponsors
-
-Thanks to our [ONC Certification Major Sponsors](https://www.open-emr.org/wiki/index.php/OpenEMR_Certification_Stage_III_Meaningful_Use#Major_sponsors)!
-
-
-### License
-
-[GNU GPL](LICENSE)
