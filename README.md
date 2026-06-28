@@ -2,11 +2,14 @@
 
 BansaEMR: Filipino Dashboard EMR for small clinics and stand-alone medical centers. // BansaEMR para sa mga maliliit na klinika at hiwalay na mga medical center.
 
+Developed and maintained by Medverselabs.
+Website: https://katusop.co
+
 ---
 
 ## Project Overview
 
-BansaEMR is a localized electronic medical records (EMR) and practice management solution optimized specifically for the unique workflows of independent healthcare facilities and small clinics in the Philippines. The system introduces a tailored user experience designed to make medical charting, scheduling, and clinic management intuitive, efficient, and accessible for local health workers.
+BansaEMR is a specialized electronic medical records (EMR) and practice management solution engineered by Medverselabs. It is optimized specifically for the unique clinical and administrative workflows of independent healthcare facilities and small clinics across the Philippines. The system introduces a highly tailored user experience designed to make medical charting, scheduling, and clinic management intuitive, efficient, and accessible for local health workers.
 
 ### Key Features
 * Localization: Integrated EN/TL (English/Tagalog) global language framework across all core clinic and dashboard views.
@@ -37,20 +40,4 @@ Adopting an agile digital infrastructure directly improves community health outc
 To clone, build, and run BansaEMR locally, ensure you meet the prerequisite environment specifications.
 
 ### Prerequisites
-* Node.js: Version 24.* is required for asset compilation.
-* PHP / Composer
-
-### Installation Setup
-
-```bash
-# Install PHP dependencies
-composer install --no-dev
-
-# Install JavaScript dependencies
-npm install
-
-# Build front-end compilation themes and assets
-npm run build
-
-# Optimize the autoloader mapping
-composer dump-autoload -o
+* Node.js: Version 2
