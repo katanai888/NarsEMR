@@ -2,9 +2,6 @@
 
 BansaEMR: Filipino Dashboard EMR for small clinics and stand-alone medical centers. // BansaEMR para sa mga maliliit na klinika at hiwalay na mga medical center.
 
-Developed and maintained by Medverselabs.
-Website: https://katusop.co
-
 ---
 
 ## Project Overview
@@ -41,3 +38,6 @@ To clone, build, and run BansaEMR locally, ensure you meet the prerequisite envi
 
 ### Prerequisites
 * Node.js: Version 2
+
+  Developed and maintained by Medverse Labs.
+  Portfolio: https://katusop.co
